@@ -1,0 +1,4 @@
+Command:
+ curl.exe -X POST "http://localhost:5000/api/auth/login" -H "Content-Type: application/json" --data-binary "@login-data.json"
+Output:
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWE3YWE5MzEyZDgyMDk2Nzg0NjBkYzgiLCJlbWFpbCI6ImFsaXRlc3RAZXhhbXBsZS5jb20iLCJpYXQiOjE3ODkzNzM0NjAsImV4cCI6MTc4OTk3ODI2MH0.A2LdqwjB_rjSmx-h8Thh_F8oeNpDyxyeA_7e_sHrEDA","user":{"id":"6aa7aa9312d8209678460dc8","name":"Ali Test","email":"alitest@example.com","location":""}}

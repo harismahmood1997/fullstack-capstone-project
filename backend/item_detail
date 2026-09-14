@@ -1,0 +1,5 @@
+Command:
+curl.exe http://localhost:5000/api/gifts/1
+
+Output:
+{"_id":"6aa7907445c2983bd8f4562e","id":1,"category":"Furniture","createdAt":"2026-09-01","description":"Used wooden chair in good condition.","image":"https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=800&q=80","location":"Lahore","name":"Wooden Chair","postedBy":"Ali","userId":null,"comments":[]}

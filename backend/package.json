@@ -1,0 +1,19 @@
+{
+  "name": "giftlink-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "import:gifts": "node importGifts.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "mongodb": "latest",
+    "natural": "latest"
+  }
+}
